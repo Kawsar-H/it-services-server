@@ -22,7 +22,9 @@ admin.initializeApp({
 
 
 
-
+app.get('/', (req , res) =>{
+  res.send('hello bro.how are ..')
+});
 
 
 
