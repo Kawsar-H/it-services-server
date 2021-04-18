@@ -22,12 +22,7 @@ admin.initializeApp({
 
 
 
-app.get('/',(req,res)=>{
-    admin.auth().verifyIdToken(req.headers.token)
-    .then(result=>{
-        res.send(result)
-    })
-})
+
 
 
 
